@@ -5,6 +5,11 @@
 (setq user-full-name "Soren Soe"
       user-mail-address "2106410+stsoe@users.noreply.github.com")
 
+(add-to-list 'load-path
+             (expand-file-name "site-lisp" user-emacs-directory))
+(add-to-list 'load-path
+             (expand-file-name "lisp" user-emacs-directory))
+
 ;; customiztions
 (setq custom-file
       (concat (expand-file-name user-emacs-directory) "custom.el"))
@@ -35,3 +40,12 @@
 (put 'set-goal-column 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
+
+;; use for install of 's 'dash 'editorconfig needed by copilot
+;; M-x install-package RET package RET
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+
+
+(require 'init-copilot)

@@ -37,6 +37,12 @@
 ;; Permanently force Emacs to indent with spaces, never with TABs
 (setq-default indent-tabs-mode nil)
 
+;; This variable controls the type of device used to communicate with
+;; asynchronous subprocesses. If it is non-nil, then ptys are used,
+;; when available. Otherwise, pipes are used.
+;; https://github.com/microsoft/WSL/issues/4412
+(setq-default process-connection-type nil)
+
 (put 'set-goal-column 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)

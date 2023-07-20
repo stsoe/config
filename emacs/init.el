@@ -48,7 +48,7 @@
 (put 'upcase-region 'disabled nil)
 
 ;; use for install of 's 'dash 'editorconfig needed by copilot
-;; M-x install-package RET package RET
+;; M-x package-install RET package RET
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)

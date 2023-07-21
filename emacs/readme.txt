@@ -38,15 +38,18 @@ this folder has my preferred settings which I can simply link to.
 Invoke emacs and install the necessary packages for using copilot
 =================================================================
 % emacs
-Complains that 'init-copilot (see init.el bottom) fails because of
-missing packages.  Install 's, 'dash, and 'editorconfig from within
-emacs
+On load init.el is supposed to install packages required to run
+copilot.  If package installation fails, then subsequent call to
+'init-copilot (end of init.el) will fail. You will have to debug the
+failure, or just manually install the required packages ('s, 'dash,
+'editorconfig) from within emacs.
 
 emacs> M-x package-install RET s RET
 emacs> M-x package-install RET dash RET
 emacs> M-x package-install RET editorconfig RET
 
-Restart emacs which should now start without init.el warnings or errors.
+If manually installed then restart emacs which should now start
+without init.el warnings or errors.
 
 Authorize GitHub.com copilot
 ============================

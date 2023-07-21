@@ -48,12 +48,32 @@ emacs> M-x package-install RET editorconfig RET
 
 Restart emacs which should now start without init.el warnings or errors.
 
+Authorize GitHub.com copilot
+============================
+Go to your github.com/setings/copilot and authorize GitHub
+Copilot as a GitHub App.
+
 Login into copilot within emacs
 ===============================
+First go to your github.com/setings/copilot and authorize GitHub
+Copilot as a GitHub App.
 To see all commands
 emacs> M-x copilot-<TAB>
 
 To login, which will invoke chrome and be more or less self explaining
 emacs> M-x copilot-login
+
+Above will start copilot but presents a device ID in the status bar.
+(1) Make a note of this device id.
+(2) Copy the URL from the emacs window and
+(3) Open URL in your browser.
+(4) Enter the device ID and accept
+(5) Back in emacs window, click enter in the status bar
+
+copilot should now work from emacs
+
+
+
+
 
 

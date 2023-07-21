@@ -17,7 +17,10 @@
  )
 
 ;; google chrome for default browser (needed for copilot-login)
+;; appears not to work, just copy the URL from the emacs terminal
+;; window and paste it into chrome
 (setq browse-url-browser-function 'browse-url-chrome)
+(setq browse-url-chrome-program "google-chrome-stable")
 
 ;(setq p4-init-file
 ;      (expand-file-name "p4.el" "~/.emacs.d"))

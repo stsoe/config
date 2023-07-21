@@ -53,4 +53,13 @@
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
+(setq my-packages
+      '(editorconfig
+        s
+        dash))
+
+(dolist (p my-packages)
+        (unless (package-installed-p p)
+          (package-install p)))
+
 (require 'init-copilot)

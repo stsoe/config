@@ -34,6 +34,11 @@
 ;; Highlight matching parens
 (setq show-paren-mode t)
 
+;; To disable the overriding of standard Emacs binding by CUA mode,
+;; while retaining the other features of CUA mode described below, set
+;; the variable cua-enable-cua-keys to nil.
+(setq cua-enable-cua-keys nil)
+
 ;; Permanently force Emacs to indent with spaces, never with TABs
 (setq-default indent-tabs-mode nil)
 

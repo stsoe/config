@@ -1,0 +1,51 @@
+!Load changes using
+! % xrdb .Xresources
+
+!Emacs.font:	*-courier-medium-r-normal--*14-140*
+Emacs.background: darkslateblue
+Emacs.foreground: white
+Emacs.cursorColor: yellow
+Emacs.pointerColor: red
+
+LargeEmacs.font:	*-courier-bold-r-normal--*18*
+LargeEmacs.title:	LargeEmacs
+LargeEmacs.iconName:	LargeEmacs
+
+! list available fonts with xlsfonts
+
+EmacsRHEL5.font:*-courier-medium-r-normal--*14-140*
+EmacsRHEL5.background: darkslateblue
+EmacsRHEL5.foreground: white
+EmacsRHEL5.cursorColor: yellow
+EmacsRHEL5.pointerColor: red
+
+!EmacsRHEL6.font:-adobe-courier-medium-r-normal--14-100-100-100-m-90-iso8859-1
+EmacsRHEL6.font:-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1
+EmacsRHEL6.background: darkslateblue
+EmacsRHEL6.foreground: white
+EmacsRHEL6.cursorColor: yellow
+EmacsRHEL6.pointerColor: red
+
+fancy.font:	*-courier-medium-*-normal--*14-140*
+fancy.foreground: white
+fancy.background: navyblue
+fancy.borderColor: red
+fancy.cursorColor: yellow
+fancy.pointerColor: red
+fancy.title: FancyEmacs
+fancy.iconName: FancyEmacs
+
+Rmail.font:	*-courier-medium-r-normal--*14-140*
+Rmail.title: Rmail
+Rmail.iconName: Rmail
+Rmail.background: white
+Rmail.foreground: black
+
+XTerm*Font:     *-courier-medium-r-normal--*14-140*
+XTerm*SaveLines:	200
+
+
+shelltool.Font:     *-courier-medium-r-normal--*14-140*
+shelltool.SaveLines:	200
+shelltool.fontMenu*font4*Label:     Swedish
+shelltool.VT100*font4:      	8x13s

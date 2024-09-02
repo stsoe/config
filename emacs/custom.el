@@ -6,7 +6,12 @@
  '(auto-compression-mode t nil (jka-compr))
  '(case-fold-search t)
  '(global-font-lock-mode t nil (font-lock))
- '(package-selected-packages '(editorconfig s dash))
+ '(ignored-local-variable-values
+   '((eval progn
+           (c-set-offset 'innamespace '0)
+           (c-set-offset 'inline-open '0))))
+ '(package-selected-packages
+   '(markdown-preview-mode markdown-mode tree-sitter-langs tree-sitter f editorconfig s dash))
  '(show-paren-mode t)
  '(transient-mark-mode t))
 (custom-set-faces

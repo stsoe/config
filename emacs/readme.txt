@@ -1,9 +1,9 @@
-Install emacs28
+Install emacs29
 ===============
 % sudo apt remove --autoremove emacs emacs-common
-% sudo add-apt-repository ppa:kelleyk/emacs
+% sudo add-apt-repository ppa:ubuntuhandbook1/emacs
 % sudo apt update
-% sudo apt install emacs28
+% sudo apt install emacs
 
 Install Node.js version 18.16 or later
 ======================================

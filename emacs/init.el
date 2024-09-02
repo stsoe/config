@@ -52,16 +52,25 @@
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
-;; use for install of 's 'dash 'editorconfig needed by copilot
+;; use for install of 's 'dash 'editorconfig 'f needed by copilot
 ;; M-x package-install RET package RET
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
+;; For tree-sitter see: https://emacs-tree-sitter.github.io/installation/
+;; M-x tree-sitter-mode
+;; For syntax highlighting use M-x tree-sitter-hl-mode 
 (setq my-packages
       '(editorconfig
         s
-        dash))
+        dash
+        f
+        tree-sitter
+        tree-sitter-langs
+        markdown-mode
+        markdown-preview-mode
+        ))
 
 (dolist (p my-packages)
         (unless (package-installed-p p)

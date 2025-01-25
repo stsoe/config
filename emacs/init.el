@@ -66,10 +66,6 @@
         s
         dash
         f
-        tree-sitter
-        tree-sitter-langs
-        markdown-mode
-        markdown-preview-mode
         ))
 
 (dolist (p my-packages)

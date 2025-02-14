@@ -66,6 +66,7 @@
         s
         dash
         f
+        jsonrpc
         ))
 
 (dolist (p my-packages)

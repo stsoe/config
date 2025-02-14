@@ -11,7 +11,7 @@
            (c-set-offset 'innamespace '0)
            (c-set-offset 'inline-open '0))))
  '(package-selected-packages
-   '(markdown-preview-mode markdown-mode tree-sitter-langs tree-sitter f editorconfig s dash))
+   '(editorconfig s dash f jsonrpc))
  '(show-paren-mode t)
  '(transient-mark-mode t))
 (custom-set-faces

@@ -27,6 +27,9 @@
 (setq browse-url-browser-function 'browse-url-chrome)
 (setq browse-url-chrome-program "google-chrome-stable")
 
+;; json indent level
+(setq js-indent-level 2)
+
 ;(setq p4-init-file
 ;      (expand-file-name "p4.el" "~/.emacs.d"))
 ;(load-file p4-init-file)

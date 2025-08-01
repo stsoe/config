@@ -5,6 +5,9 @@ Install emacs29
 % sudo apt update
 % sudo apt install emacs
 
+If sudo add-apt-repository complains and tries access .launchpadlib in homedir then try
+% sudo HOME=/root add-apt-repository ppa:ubuntuhandbook1/emacs
+
 Install Node.js version 18.16 or later
 ======================================
 Download and install package from https://nodejs.org/en/download
